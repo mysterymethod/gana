@@ -10,13 +10,13 @@ const Discover = () => {
 
   console.log(data);
 
-  if (true) {
+  if (isFetching) {
     return <Loader title='Loading...' />
   }
 
-  // if (error) {
-  //   return <Error />
-  // }
+  if (error) {
+    return <Error />
+  }
 
   return (
 
