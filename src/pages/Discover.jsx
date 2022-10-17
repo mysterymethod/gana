@@ -38,7 +38,7 @@ const Discover = () => {
       </div>
 
       {/* Display all songs */}
-      <div className='border flex flex-wrap sm:justify-start justify-center gap-8'>
+      <div className='flex flex-wrap sm:justify-start justify-center gap-8'>
         {
           data?.map((song, i) => (
             <SongCard
